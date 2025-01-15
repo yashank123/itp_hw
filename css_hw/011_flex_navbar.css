@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    background-color: #57ADBF;
+    color: whitesmoke;
+    height: 30px;
+}
+
+#navbar:hover{
+    border: 2px solid  #053e4a;
+}
+
+.box{
+    margin: auto 0px;
+}
+
+#logo:hover , #contact:hover, #main p:hover{
+    background-color: #053e4a ;
+    border-radius: 4px ;
+    padding: 3px;
+    text-decoration: underline;
+}
+
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}

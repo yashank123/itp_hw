@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#parent{
+    box-sizing: border-box;
+    border: 3px solid red;
+    height: 300px;
+    width: 500px;
+}
+
+#a{
+    border: 2px solid black;
+    width: 48%;
+    float: left;
+    margin: 5px;
+}
+
+#b{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}

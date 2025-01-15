@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    border: 5px solid orange;
+    box-sizing: border-box;
+}
+
+#container p{
+    border: 2px solid blue;
+    margin: 5px;
+}
+
+#a{
+    background-color: aqua;
+}
+
+#b{
+    background-color: antiquewhite;
+    width: 48%;
+    float: left;
+}
+
+#c{
+    background-color: aquamarine;
+    /* float: left; */
+}
